@@ -1,0 +1,182 @@
+:root {
+  /* Colors */
+  --color-ffffff: #ffffff;
+  --color-f25019: #f25019;
+  --color-02073f: #02073f;
+  --color-bcbec0: #bcbec0;
+  --color-ffc107: #ffc107;
+  --color-ff3d00: #ff3d00;
+  --color-4caf50: #4caf50;
+  --color-1976d2: #1976d2;
+  --color-000000: #000000;
+  --color-c7d2d6: #c7d2d6;
+  --color-059be5: #059be5;
+  --color-fd661f: #fd661f;
+  --color-3442d9: #3442d9;
+  --color-0c20ab: #0c20ab;
+
+  /* Typography variables (families, sizes, weights, line-heights, letter-spacing, text-align, and colors) */
+  --typo-11-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-11-size: 24px;
+  --typo-11-weight: 700;
+  --typo-11-line-height: 36px;
+  --typo-11-letter-spacing: 0px;
+  --typo-11-align: left;
+  --typo-11-color: var(--color-f25019);
+
+  --typo-12-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-12-size: 38px;
+  --typo-12-weight: 700;
+  --typo-12-line-height: 57px;
+  --typo-12-letter-spacing: 0px;
+  --typo-12-align: left;
+  --typo-12-color: var(--color-02073f);
+
+  --typo-13-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-13-size: 14px;
+  --typo-13-weight: 400;
+  --typo-13-line-height: 21px;
+  --typo-13-letter-spacing: 0px;
+  --typo-13-align: left;
+  --typo-13-color: var(--color-02073f);
+
+  --typo-14-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-14-size: 14px;
+  --typo-14-weight: 400;
+  --typo-14-line-height: 21px;
+  --typo-14-letter-spacing: 0px;
+  --typo-14-align: left;
+  --typo-14-color: var(--color-bcbec0);
+
+  --typo-15-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-15-size: 14px;
+  --typo-15-weight: 600;
+  --typo-15-line-height: 21px;
+  --typo-15-letter-spacing: 0px;
+  --typo-15-align: left;
+  --typo-15-color: var(--color-02073f);
+
+  --typo-16-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-16-size: 12px;
+  --typo-16-weight: 400;
+  --typo-16-line-height: 18px;
+  --typo-16-letter-spacing: 0px;
+  --typo-16-align: left;
+  --typo-16-color: var(--color-02073f);
+
+  --typo-17-family: 'Poppins', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-17-size: 20px;
+  --typo-17-weight: 700;
+  --typo-17-line-height: 30px;
+  --typo-17-letter-spacing: 0px;
+  --typo-17-align: left;
+  --typo-17-color: var(--color-ffffff);
+
+  --typo-18-family: 'Nunito Sans', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-18-size: 55px;
+  --typo-18-weight: 700;
+  --typo-18-line-height: 99px;
+  --typo-18-letter-spacing: 1.1px;
+  --typo-18-align: left;
+  --typo-18-color: var(--color-02073f);
+
+  --typo-19-family: 'Nunito Sans', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-19-size: 30px;
+  --typo-19-weight: 600;
+  --typo-19-line-height: 54px;
+  --typo-19-letter-spacing: 0.6px;
+  --typo-19-align: left;
+  --typo-19-color: var(--color-02073f);
+
+  --typo-20-family: 'Raleway', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-20-size: 24px;
+  --typo-20-weight: 700;
+  --typo-20-line-height: 28.176px;
+  --typo-20-letter-spacing: 0.48px;
+  --typo-20-align: left;
+  --typo-20-color: var(--color-fd661f);
+
+  --typo-21-family: 'Raleway', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-21-size: 24px;
+  --typo-21-weight: 500;
+  --typo-21-line-height: 28.176px;
+  --typo-21-letter-spacing: 0.48px;
+  --typo-21-align: left;
+  --typo-21-color: var(--color-02073f);
+
+  --typo-22-family: 'Raleway', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --typo-22-size: 16px;
+  --typo-22-weight: 500;
+  --typo-22-line-height: 18.784px;
+  --typo-22-letter-spacing: 0.32px;
+  --typo-22-align: left;
+  --typo-22-color: var(--color-ffffff);
+
+  /* Radii */
+  --radius-5: 5px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-14: 14px;
+  --radius-20: 20px;
+  --radius-40: 40px;
+
+  /* Spacing (generic scale used when building gaps/margins) */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Shadows */
+  --shadow-0: 0px 4px 70px rgba(0,0,0,0.9); /* soften slightly for cross-browser parity */
+  --shadow-1: 0px 8px 40px #d24d65;
+}
+
+/* Global resets and accessibility-friendly defaults */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  color: #111;
+}
+
+/* Image defaults for LCP/CLS control */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Focus visible styles for keyboard users */
+:focus-visible {
+  outline: 3px solid #2563EB; /* accessible blue */
+  outline-offset: 2px;
+}
+
+/* Utility tokens for spacing and wrappers, safe and generic */
+.container-max {
+  width: min(100%, 1920px);
+  margin-inline: auto;
+}
+
+/* Responsive helpers */
+@media (max-width: 1280px) {
+  .hide-at-1280 { display: none !important; }
+}
+@media (max-width: 1024px) {
+  .hide-at-1024 { display: none !important; }
+}
+@media (max-width: 768px) {
+  .hide-at-768 { display: none !important; }
+}
+@media (max-width: 390px) {
+  .hide-at-390 { display: none !important; }
+}

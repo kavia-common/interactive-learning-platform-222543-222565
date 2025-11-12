@@ -1,0 +1,220 @@
+@import url("./common.css");
+
+/* Visually-hidden utility for screen-reader-only content */
+.sr-only,
+.sr-only:not(:focus):not(:active) {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+.screen-root {
+  position: relative;
+  width: 1920px;
+  height: 1131px;
+  overflow: hidden;
+  background-color: transparent;
+  font-family: 'Poppins', 'Raleway', 'Nunito Sans', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Utility to apply text styles via classes */
+.text-typo-11 { font-family: var(--typo-11-family); font-size: var(--typo-11-size); font-weight: var(--typo-11-weight); line-height: var(--typo-11-line-height); letter-spacing: var(--typo-11-letter-spacing); text-align: var(--typo-11-align); color: var(--typo-11-color); }
+.text-typo-12 { font-family: var(--typo-12-family); font-size: var(--typo-12-size); font-weight: var(--typo-12-weight); line-height: var(--typo-12-line-height); letter-spacing: var(--typo-12-letter-spacing); text-align: var(--typo-12-align); color: var(--typo-12-color); }
+.text-typo-13 { font-family: var(--typo-13-family); font-size: var(--typo-13-size); font-weight: var(--typo-13-weight); line-height: var(--typo-13-line-height); letter-spacing: var(--typo-13-letter-spacing); text-align: var(--typo-13-align); color: var(--typo-13-color); }
+.text-typo-14 { font-family: var(--typo-14-family); font-size: var(--typo-14-size); font-weight: var(--typo-14-weight); line-height: var(--typo-14-line-height); letter-spacing: var(--typo-14-letter-spacing); text-align: var(--typo-14-align); color: var(--typo-14-color); }
+.text-typo-15 { font-family: var(--typo-15-family); font-size: var(--typo-15-size); font-weight: var(--typo-15-weight); line-height: var(--typo-15-line-height); letter-spacing: var(--typo-15-letter-spacing); text-align: var(--typo-15-align); color: var(--typo-15-color); }
+.text-typo-16 { font-family: var(--typo-16-family); font-size: var(--typo-16-size); font-weight: var(--typo-16-weight); line-height: var(--typo-16-line-height); letter-spacing: var(--typo-16-letter-spacing); text-align: var(--typo-16-align); color: var(--typo-16-color); }
+.text-typo-17 { font-family: var(--typo-17-family); font-size: var(--typo-17-size); font-weight: var(--typo-17-weight); line-height: var(--typo-17-line-height); letter-spacing: var(--typo-17-letter-spacing); text-align: var(--typo-17-align); color: var(--typo-17-color); }
+.text-typo-18 { font-family: var(--typo-18-family); font-size: var(--typo-18-size); font-weight: var(--typo-18-weight); line-height: var(--typo-18-line-height); letter-spacing: var(--typo-18-letter-spacing); text-align: var(--typo-18-align); color: var(--typo-18-color); }
+.text-typo-19 { font-family: var(--typo-19-family); font-size: var(--typo-19-size); font-weight: var(--typo-19-weight); line-height: var(--typo-19-line-height); letter-spacing: var(--typo-19-letter-spacing); text-align: var(--typo-19-align); color: var(--typo-19-color); }
+.text-typo-20 { font-family: var(--typo-20-family); font-size: var(--typo-20-size); font-weight: var(--typo-20-weight); line-height: var(--typo-20-line-height); letter-spacing: var(--typo-20-letter-spacing); text-align: var(--typo-20-align); color: var(--typo-20-color); }
+.text-typo-21 { font-family: var(--typo-21-family); font-size: var(--typo-21-size); font-weight: var(--typo-21-weight); line-height: var(--typo-21-line-height); letter-spacing: var(--typo-21-letter-spacing); text-align: var(--typo-21-align); color: var(--typo-21-color); }
+.text-typo-22 { font-family: var(--typo-22-family); font-size: var(--typo-22-size); font-weight: var(--typo-22-weight); line-height: var(--typo-22-line-height); letter-spacing: var(--typo-22-letter-spacing); text-align: var(--typo-22-align); color: var(--typo-22-color); }
+
+/* Root child: Login card container "Loin" */
+#el-1-112 {
+  position: absolute;
+  left: 103.2489px;
+  top: 220.5px;
+  width: 641px;
+  height: 835px;
+  /* style_25 shadow_0 */
+  box-shadow: var(--shadow-0);
+  border-radius: var(--radius-40);
+  background: transparent;
+}
+#el-1-113 {
+  position: absolute;
+  left: 0px; top: 0px; width: 641px; height: 835px;
+  background-color: var(--color-ffffff);
+  border-radius: var(--radius-40);
+}
+
+/* Fields group within Login card */
+#el-1-114 {
+  position: absolute;
+  left: 120px;
+  top: 116px;
+  width: 401px;
+  height: 601px;
+}
+
+/* Inputs overlayed on rectangles: accessible appearance */
+.a11y-field {
+  position: absolute;
+  left: 1px;
+  width: 398px;
+  height: 48px;
+  padding: 0 16px;
+  border: 1px solid rgba(2,7,63,0.15);
+  border-radius: var(--radius-5);
+  background: transparent;
+  color: var(--typo-13-color);
+  font: inherit;
+}
+.a11y-field::placeholder {
+  color: var(--typo-14-color);
+}
+.a11y-field:focus-visible {
+  outline: 3px solid #2563EB;
+  outline-offset: 2px;
+}
+
+.email-field { top: 145px; }
+.password-field { top: 251px; }
+
+/* Texts in fields */
+#el-1-115 { position: absolute; left: 1px; top: 0px; }
+#el-1-116 { position: absolute; left: 1px; top: 41px; }
+#el-1-117 { position: absolute; left: 0px; top: 118px; }
+#el-1-120 { position: absolute; left: 0px; top: 224px; }
+#el-1-129 { position: absolute; left: 1px; top: 315px; text-decoration: none; color: var(--typo-13-color); }
+#el-1-129:hover, #el-1-129:focus { text-decoration: underline; }
+#el-1-131 { position: absolute; left: 169px; top: 383px; }
+#el-1-126 { position: absolute; left: 150px; top: 466px; }
+#el-1-127 { position: absolute; left: 39px; top: 580px; }
+#el-1-128 { position: absolute; left: 222px; top: 580px; text-decoration: none; }
+#el-1-128:hover, #el-1-128:focus { text-decoration: underline; }
+
+/* Decorative rectangles behind inputs and button */
+#el-1-118 { position: absolute; left: 1px; top: 144px; width: 400px; height: 50px; background-color: var(--color-ffffff); border-radius: var(--radius-5); }
+#el-1-119 { position: absolute; left: 1px; top: 250px; width: 400px; height: 50px; background-color: var(--color-ffffff); border-radius: var(--radius-5); }
+#el-1-130 { position: absolute; left: 1px; top: 373px; width: 400px; height: 50px; background-color: var(--color-f25019); border-radius: var(--radius-5); }
+
+/* Clickable Sign-in button layered over rectangle */
+#el-1-131.btn-primary {
+  position: absolute;
+  width: 120px; /* intrinsic text width; visually centered by absolute text position from figma */
+  height: 30px;
+  left: 169px; top: 383px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--typo-17-color);
+}
+#el-1-131.btn-primary:focus-visible { outline: 3px solid #2563EB; outline-offset: 3px; }
+
+/* Social rectangles become buttons */
+#el-1-121, #el-1-122, #el-1-123 {
+  position: absolute; width: 125px; height: 50px; background-color: var(--color-ffffff); border-radius: var(--radius-40);
+  border: 1px solid rgba(2,7,63,0.1);
+  cursor: pointer;
+}
+#el-1-121 { left: 2px; top: 500px; }
+#el-1-122 { left: 138px; top: 500px; }
+#el-1-123 { left: 274px; top: 500px; }
+#el-1-121:focus-visible, #el-1-122:focus-visible, #el-1-123:focus-visible { outline: 3px solid #2563EB; outline-offset: 2px; }
+
+/* Eye-hide icon container becomes a button for accessibility */
+#el-1-141 {
+  position: absolute; left: 363px; top: 267px; width: 16px; height: 16px; background-color: var(--color-c7d2d6); border-radius: var(--radius-40);
+  border: none;
+  cursor: pointer;
+}
+
+/* Google icon container */
+#el-1-132 { position: absolute; left: 53px; top: 513px; width: 24px; height: 24px; background-color: var(--color-ffffff); border-radius: var(--radius-40); pointer-events: none; }
+/* GitHub icon container */
+#el-1-138 { position: absolute; left: 188px; top: 512px; width: 24px; height: 24px; background-color: var(--color-ffffff); border-radius: var(--radius-40); pointer-events: none; }
+/* Facebook icon container */
+#el-1-145 { position: absolute; left: 324px; top: 513px; width: 24px; height: 24px; background-color: var(--color-059be5); border-radius: var(--radius-40); pointer-events: none; }
+
+/* Right-side big image */
+#el-1-109 {
+  position: absolute;
+  left: 825.7908px;
+  top: 205.892px;
+  width: 1101.3864px;
+  height: 924.7183px;
+  overflow: visible;
+  object-fit: cover;
+}
+
+/* Small square group with shadow and inner svg */
+#el-1-323 { position: absolute; left: 1699.2393px; top: 530.5px; width: 88.2434px; height: 88.2434px; }
+#el-1-324 { position: absolute; left: 0; top: 0; width: 88.2434px; height: 88.2434px; background-color: var(--color-fd661f); border: 1px solid var(--color-fd661f); border-radius: var(--radius-14); box-shadow: var(--shadow-1); }
+#el-1-325 { position: absolute; left: 14.5149px; top: 15.4425px; width: 60.4915px; height: 57.3582px; border: 1px solid var(--color-fd661f); border-radius: var(--radius-8); background-color: var(--color-ffffff); }
+
+/* Stats card group */
+#el-1-330 { position: absolute; left: 825.7908px; top: 679.7202px; width: 473.79px; height: 156.7798px; }
+#el-1-331 { position: absolute; left: 0; top: 0; width: 473.79px; height: 156.7798px; background-color: var(--color-ffffff); border: 2px solid var(--color-02073f); border-radius: var(--radius-20); }
+#el-1-332 { position: absolute; left: 173.7231px; top: 10.3900px; }
+#el-1-333 { position: absolute; left: 173.7231px; top: 85.6900px; }
+#el-1-334 { position: absolute; left: 23.9780px; top: 23.5170px; width: 116.1333px; height: 115.2875px; }
+#el-1-335 { position: absolute; left: 0; top: 0; width: 116.1333px; height: 115.2875px; background-color: var(--color-3442d9); border-radius: var(--radius-8); }
+#el-1-336 { position: absolute; left: 26.1301px; top: 25.9398px; width: 63.8733px; height: 63.4081px; }
+#el-1-345 { position: absolute; left: 0px; top: 6.7937px; width: 63.8733px; height: 56.6144px; }
+
+/* Top nav frame */
+#el-1-373 { position: absolute; left: 761px; top: 64px; width: 781px; height: 28px; }
+#el-1-374, #el-1-375, #el-1-376, #el-1-377, #el-1-378 { position: absolute; top: 0; text-decoration: none; color: var(--typo-21-color); }
+#el-1-374 { left: 0px; color: var(--typo-20-color); }
+#el-1-375 { left: 151px; }
+#el-1-376 { left: 321px; }
+#el-1-377 { left: 455px; }
+#el-1-378 { left: 643px; }
+#el-1-374:focus-visible, #el-1-375:focus-visible, #el-1-376:focus-visible, #el-1-377:focus-visible, #el-1-378:focus-visible { outline: 3px solid #2563EB; outline-offset: 2px; }
+
+/* Enroll Now button frame */
+#el-1-379 { position: absolute; left: 1636.8306px; top: 48.5px; width: 191px; height: 59px; background-color: var(--color-3442d9); border-radius: var(--radius-10); }
+#el-1-380 { position: absolute; left: 40px; top: 20px; color: #fff; }
+
+/* Brand/logo group */
+#el-1-381 { position: absolute; left: 103.2489px; top: 42.0667px; width: 292.9249px; height: 71.8667px; }
+#el-1-382 { position: absolute; left: 0px; top: 0px; width: 292.9249px; height: 71.8667px; background-color: var(--color-ffffff); }
+#el-1-383 { position: absolute; left: 0.2310px; top: 0.6210px; width: 85.1213px; height: 70.6274px; }
+#el-1-384 { position: absolute; left: 89.8539px; top: 7.2234px; width: 195.0861px; height: 57.3887px; background-color: var(--color-0c20ab); }
+
+/* Responsive: wrap screen to scale within smaller viewports while preserving desktop pixel layout at >=1440px */
+@media (max-width: 1440px) {
+  .screen-root {
+    transform-origin: top left;
+    transform: scale(calc(100vw / 1920));
+    height: calc(1131px * (100vw / 1920));
+    width: 1920px;
+  }
+  body, html { overflow-x: hidden; }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1024px) {
+  /* Optionally hide purely decorative right-side artwork to keep form usable */
+  #el-1-109, #el-1-323, #el-1-330 { display: none; }
+  /* Center the card */
+  #el-1-112 { left: 50% !important; transform: translateX(-50%); }
+}
+
+/* Mobile narrow (approx 390) */
+@media (max-width: 480px) {
+  /* Maintain usability: scale further for small screens */
+  .screen-root {
+    transform: scale(calc(100vw / 1920));
+    height: calc(1131px * (100vw / 1920));
+  }
+}

@@ -1,0 +1,3 @@
+/* Local page-level overrides or helpers for LoginPage.
+   Intentionally minimal to satisfy CRA import boundary rules.
+   The page relies on global assets loaded via link tags (/assets/common.css and /assets/login-page-design-1-1-110.css). */
